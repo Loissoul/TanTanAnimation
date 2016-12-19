@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B7A96011E077E3400BDD0DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7A96001E077E3400BDD0DD /* main.m */; };
+		3B7A96041E077E3400BDD0DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7A96031E077E3400BDD0DD /* AppDelegate.m */; };
+		3B7A960A1E077E3400BDD0DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B7A96081E077E3400BDD0DD /* Main.storyboard */; };
+		3B7A960C1E077E3400BDD0DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B7A960B1E077E3400BDD0DD /* Assets.xcassets */; };
+		3B7A960F1E077E3400BDD0DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B7A960D1E077E3400BDD0DD /* LaunchScreen.storyboard */; };
+		3B7A96231E07830F00BDD0DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7A96221E07830F00BDD0DD /* ViewController.m */; };
+		3B7A96261E07857D00BDD0DD /* PGQBaseCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7A96251E07857D00BDD0DD /* PGQBaseCardView.m */; };
+		3B7A962C1E078DE400BDD0DD /* PGQDragCardContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7A962B1E078DE400BDD0DD /* PGQDragCardContainerView.m */; };
+		3B7A962F1E07DBE200BDD0DD /* PGQCustomCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7A962E1E07DBE200BDD0DD /* PGQCustomCardView.m */; };
+		3B7A96321E07DD6B00BDD0DD /* CardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7A96311E07DD6B00BDD0DD /* CardViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B7A95FC1E077E3400BDD0DD /* TanTanAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TanTanAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B7A96001E077E3400BDD0DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B7A96021E077E3400BDD0DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3B7A96031E077E3400BDD0DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3B7A96091E077E3400BDD0DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B7A960B1E077E3400BDD0DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B7A960E1E077E3400BDD0DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B7A96101E077E3400BDD0DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B7A961C1E0782F900BDD0DD /* PGQConfiger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGQConfiger.h; sourceTree = "<group>"; };
+		3B7A96211E07830F00BDD0DD /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3B7A96221E07830F00BDD0DD /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3B7A96241E07857D00BDD0DD /* PGQBaseCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGQBaseCardView.h; sourceTree = "<group>"; };
+		3B7A96251E07857D00BDD0DD /* PGQBaseCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGQBaseCardView.m; sourceTree = "<group>"; };
+		3B7A962A1E078DE400BDD0DD /* PGQDragCardContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGQDragCardContainerView.h; sourceTree = "<group>"; };
+		3B7A962B1E078DE400BDD0DD /* PGQDragCardContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGQDragCardContainerView.m; sourceTree = "<group>"; };
+		3B7A962D1E07DBE200BDD0DD /* PGQCustomCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGQCustomCardView.h; sourceTree = "<group>"; };
+		3B7A962E1E07DBE200BDD0DD /* PGQCustomCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGQCustomCardView.m; sourceTree = "<group>"; };
+		3B7A96301E07DD6B00BDD0DD /* CardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardViewController.h; sourceTree = "<group>"; };
+		3B7A96311E07DD6B00BDD0DD /* CardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B7A95F91E077E3400BDD0DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B7A95F31E077E3400BDD0DD = {
+			isa = PBXGroup;
+			children = (
+				3B7A95FE1E077E3400BDD0DD /* TanTanAnimation */,
+				3B7A95FD1E077E3400BDD0DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B7A95FD1E077E3400BDD0DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B7A95FC1E077E3400BDD0DD /* TanTanAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B7A95FE1E077E3400BDD0DD /* TanTanAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				3B7A961B1E0782F900BDD0DD /* PGQCustomCard */,
+				3B7A961D1E0782F900BDD0DD /* Class */,
+				3B7A96021E077E3400BDD0DD /* AppDelegate.h */,
+				3B7A96031E077E3400BDD0DD /* AppDelegate.m */,
+				3B7A96081E077E3400BDD0DD /* Main.storyboard */,
+				3B7A960B1E077E3400BDD0DD /* Assets.xcassets */,
+				3B7A960D1E077E3400BDD0DD /* LaunchScreen.storyboard */,
+				3B7A96101E077E3400BDD0DD /* Info.plist */,
+				3B7A95FF1E077E3400BDD0DD /* Supporting Files */,
+			);
+			path = TanTanAnimation;
+			sourceTree = "<group>";
+		};
+		3B7A95FF1E077E3400BDD0DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B7A96001E077E3400BDD0DD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B7A961B1E0782F900BDD0DD /* PGQCustomCard */ = {
+			isa = PBXGroup;
+			children = (
+				3B7A96241E07857D00BDD0DD /* PGQBaseCardView.h */,
+				3B7A96251E07857D00BDD0DD /* PGQBaseCardView.m */,
+				3B7A961C1E0782F900BDD0DD /* PGQConfiger.h */,
+				3B7A962A1E078DE400BDD0DD /* PGQDragCardContainerView.h */,
+				3B7A962B1E078DE400BDD0DD /* PGQDragCardContainerView.m */,
+			);
+			path = PGQCustomCard;
+			sourceTree = "<group>";
+		};
+		3B7A961D1E0782F900BDD0DD /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				3B7A96211E07830F00BDD0DD /* ViewController.h */,
+				3B7A96221E07830F00BDD0DD /* ViewController.m */,
+				3B7A962D1E07DBE200BDD0DD /* PGQCustomCardView.h */,
+				3B7A962E1E07DBE200BDD0DD /* PGQCustomCardView.m */,
+				3B7A96301E07DD6B00BDD0DD /* CardViewController.h */,
+				3B7A96311E07DD6B00BDD0DD /* CardViewController.m */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B7A95FB1E077E3400BDD0DD /* TanTanAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B7A96131E077E3400BDD0DD /* Build configuration list for PBXNativeTarget "TanTanAnimation" */;
+			buildPhases = (
+				3B7A95F81E077E3400BDD0DD /* Sources */,
+				3B7A95F91E077E3400BDD0DD /* Frameworks */,
+				3B7A95FA1E077E3400BDD0DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TanTanAnimation;
+			productName = TanTanAnimation;
+			productReference = 3B7A95FC1E077E3400BDD0DD /* TanTanAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B7A95F41E077E3400BDD0DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Lois_pan;
+				TargetAttributes = {
+					3B7A95FB1E077E3400BDD0DD = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 475L2MZD72;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3B7A95F71E077E3400BDD0DD /* Build configuration list for PBXProject "TanTanAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B7A95F31E077E3400BDD0DD;
+			productRefGroup = 3B7A95FD1E077E3400BDD0DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B7A95FB1E077E3400BDD0DD /* TanTanAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B7A95FA1E077E3400BDD0DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B7A960F1E077E3400BDD0DD /* LaunchScreen.storyboard in Resources */,
+				3B7A960C1E077E3400BDD0DD /* Assets.xcassets in Resources */,
+				3B7A960A1E077E3400BDD0DD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B7A95F81E077E3400BDD0DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B7A962F1E07DBE200BDD0DD /* PGQCustomCardView.m in Sources */,
+				3B7A96041E077E3400BDD0DD /* AppDelegate.m in Sources */,
+				3B7A96321E07DD6B00BDD0DD /* CardViewController.m in Sources */,
+				3B7A962C1E078DE400BDD0DD /* PGQDragCardContainerView.m in Sources */,
+				3B7A96261E07857D00BDD0DD /* PGQBaseCardView.m in Sources */,
+				3B7A96231E07830F00BDD0DD /* ViewController.m in Sources */,
+				3B7A96011E077E3400BDD0DD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3B7A96081E077E3400BDD0DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B7A96091E077E3400BDD0DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B7A960D1E077E3400BDD0DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B7A960E1E077E3400BDD0DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B7A96111E077E3400BDD0DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B7A96121E077E3400BDD0DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B7A96141E077E3400BDD0DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 475L2MZD72;
+				INFOPLIST_FILE = TanTanAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wordoor.TanTanAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3B7A96151E077E3400BDD0DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 475L2MZD72;
+				INFOPLIST_FILE = TanTanAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wordoor.TanTanAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B7A95F71E077E3400BDD0DD /* Build configuration list for PBXProject "TanTanAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B7A96111E077E3400BDD0DD /* Debug */,
+				3B7A96121E077E3400BDD0DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B7A96131E077E3400BDD0DD /* Build configuration list for PBXNativeTarget "TanTanAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B7A96141E077E3400BDD0DD /* Debug */,
+				3B7A96151E077E3400BDD0DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B7A95F41E077E3400BDD0DD /* Project object */;
+}
